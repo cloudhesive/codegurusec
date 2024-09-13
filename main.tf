@@ -16,6 +16,7 @@ resource "aws_instance" "secure_ec2" {
   }
 
 
+
   ebs_block_device {
     device_name = "/dev/sdf"
     volume_size = 50
